@@ -13,8 +13,4 @@ public class HealthCheckController {
 	 return "Up";
  }
  
- @PostMapping("/service1")
- public String getService() {
-	 return "";
- }
 }
